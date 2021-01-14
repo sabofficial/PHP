@@ -1,0 +1,16 @@
+PHP Değişkenleri Oluşturma (Bildirme)
+PHP'de bir değişken, $işaretiyle başlar ve ardından değişkenin adı gelir:
+
+Misal
+<?php
+$txt = "Hello world!";
+$x = 5;
+$y = 10.5;
+?>
+Yukarıdaki ifadelerin yürütülmesinden sonra, değişken $txt değeri tutacak Hello world!, değişken $x değeri tutacak 5ve değişken $y değeri tutacaktır 10.5.
+
+Not: Bir değişkene bir metin değeri atadığınızda, değerin etrafına tırnak işaretleri koyun.
+
+Not: Diğer programlama dillerinin aksine, PHP'nin bir değişken bildirmek için bir komutu yoktur. İlk olarak ona bir değer atadığınız anda yaratılır.
+
+Değişkenleri verileri depolamak için kaplar olarak düşünün.
