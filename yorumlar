@@ -13,3 +13,19 @@ Tek satırlı yorumlar için sözdizimi:
 
 </body>
 </html>
+
+Misal
+Kodun bazı kısımlarını dışarıda bırakmak için yorum kullanma:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// You can also use comments to leave out parts of a code line
+$x = 5 /* + 15 */ + 5;
+echo $x;
+?>
+
+</body>
+</html>
