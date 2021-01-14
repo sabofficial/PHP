@@ -1,0 +1,9 @@
+Aşağıdaki örnek, iki değişkenin toplamını verecektir:
+
+Misal
+
+<?php
+$x = 5;
+$y = 4;
+echo $x + $y;
+?>
