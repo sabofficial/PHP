@@ -1,0 +1,25 @@
+PHP echo ve print İfadeleri
+echove printaşağı yukarı aynıdır. Her ikisi de ekrana veri çıkışı yapmak için kullanılır.
+Farklar küçüktür: echodönüş değeri yoktur ve dönüş değeri print1'dir, bu nedenle ifadelerde kullanılabilir. echobirden çok parametre alabilir (bu tür kullanım nadir olsa da), printancak bir argüman alabilir. echomarjinal olarak daha hızlıdır
+
+Misal
+<?php
+echo "<h2>PHP is Fun!</h2>";
+echo "Hello world!<br>";
+echo "I'm about to learn PHP!<br>";
+echo "This ", "string ", "was ", "made ", "with multiple parameters.";
+?>
+
+PHP print Bildirimi
+printDeyimi ile veya parantez olmadan kullanılabilir: printya print().
+
+Metni Görüntüle
+
+Aşağıdaki örnek, print komutla metin çıktısının nasıl alınacağını gösterir (metnin HTML biçimlendirmesi içerebileceğine dikkat edin):
+
+Misal
+<?php
+print "<h2>PHP is Fun!</h2>";
+print "Hello world!<br>";
+print "I'm about to learn PHP!";
+?>
